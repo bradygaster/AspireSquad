@@ -1,8 +1,8 @@
 # 🤖 AspireSquad
 
-> **Building .NET Aspire apps is hard. What if you had a whole team of specialists who could help?**
+> **What if you had a whole team of specialists who could help build Aspire apps?**
 
-AspireSquad is a working AI agent team you can deploy right now — 21 specialized robots (yes, from pop culture) who collaborate to design, build, test, deploy, and document .NET Aspire applications. Each agent has deep expertise in one domain and works together with the rest of the squad.
+AspireSquad is a working AI agent team you can deploy right now — 21 specialized robots (yes, from pop culture) who collaborate to design, build, test, deploy, and document Aspire applications. Each agent has deep expertise in one domain and works together with the rest of the squad.
 
 Think of it as your AI engineering team-in-a-box. Fork it, customize it, and start building.
 
@@ -36,7 +36,7 @@ Whether you're building a new Aspire app, modernizing an existing system, or exp
 
 - **[Visual Studio Code](https://code.visualstudio.com/)** with **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)** extension enabled
 - **[.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)** or later
-- **[.NET Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling)** — Install with:
+- **[Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling)** — Install with:
   ```powershell
   dotnet workload install aspire
   ```
@@ -265,7 +265,7 @@ You're not alone — here's how to get support:
 - Verify remotes with `git remote -v`
 - Check branch name with `git branch`
 
-**".NET Aspire workload not found"**
+**"Aspire workload not found"**
 - Run `dotnet workload install aspire`
 - Verify with `dotnet workload list`
 - May need to restart terminal after installation
