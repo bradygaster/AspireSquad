@@ -31,6 +31,142 @@
       "created_at": "2026-02-16T22:42:58Z",
       "legacy_named": false,
       "status": "active"
+    },
+    "wall-e": {
+      "persistent_name": "WALL-E",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "WALL-E (Pixar)",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "optimus": {
+      "persistent_name": "Optimus",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Transformers",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "vision": {
+      "persistent_name": "Vision",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Marvel (Avengers)",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "t-800": {
+      "persistent_name": "T-800",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "The Terminator",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "marvin": {
+      "persistent_name": "Marvin",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "The Hitchhiker's Guide to the Galaxy",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "c-3po": {
+      "persistent_name": "C-3PO",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Star Wars",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "r2-d2": {
+      "persistent_name": "R2-D2",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Star Wars",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "eve": {
+      "persistent_name": "EVE",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "WALL-E (Pixar)",
+      "created_at": "2026-02-16T22:50:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "sonny": {
+      "persistent_name": "Sonny",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "I, Robot",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "rosie": {
+      "persistent_name": "Rosie",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "The Jetsons",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "hk-47": {
+      "persistent_name": "HK-47",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Star Wars: KOTOR",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "iron-giant": {
+      "persistent_name": "Iron Giant",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "The Iron Giant",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "bender": {
+      "persistent_name": "Bender",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Futurama",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "k-2so": {
+      "persistent_name": "K-2SO",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Star Wars: Rogue One",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "robby": {
+      "persistent_name": "Robby",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Forbidden Planet",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "gort": {
+      "persistent_name": "Gort",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "The Day the Earth Stood Still",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "tars": {
+      "persistent_name": "TARS",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Interstellar",
+      "created_at": "2026-02-16T22:55:00Z",
+      "legacy_named": false,
+      "status": "active"
     }
   }
 }

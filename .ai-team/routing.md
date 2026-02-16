@@ -10,6 +10,23 @@ How to decide who handles what.
 | Blog posts, content writing, journey documentation | Johnny Five | Write blog posts, document milestones, capture team progress |
 | Git workflows, branching, CI/CD, releases, repo ops | Bishop | Branch strategy, GitHub Actions, release tagging, merge ops |
 | Developer relations, outreach, community engagement, demos | Baymax | DevRel strategy, community outreach, developer advocacy, sample apps |
+| Infrastructure, containers, Docker, cloud deploy, Dockerfile | WALL-E | Container orchestration, Dockerfile generation, cloud deployment manifests |
+| Testing, QA, test coverage, integration tests, unit tests | Optimus | Test strategy, test generation, coverage analysis, test frameworks |
+| Observability, monitoring, logging, tracing, metrics, OpenTelemetry | Vision | Dashboard config, telemetry pipelines, health checks, structured logging |
+| Security, compliance, secrets, authentication, authorization | T-800 | Secret management, auth patterns, vulnerability scanning, HTTPS config |
+| DX tooling, scaffolding, templates, developer experience, CLI | Marvin | Project templates, code generation, CLI tooling, developer ergonomics |
+| Database integrations, SQL Server, PostgreSQL, MySQL, Redis caching | C-3PO | Aspire database hosting, connection strings, migrations, caching patterns |
+| Messaging, RabbitMQ, Azure Service Bus, Kafka, event-driven | R2-D2 | Message broker hosting, pub/sub patterns, queue configuration |
+| Azure services, Azure Container Apps, Bicep, ARM, azd | EVE | Azure deployment, ACA configuration, managed identity, Azure-native patterns |
+| AI, ML, Ollama, Azure OpenAI, LLM hosting, model serving | Sonny | AI service integration, LLM orchestration, ML model hosting in Aspire |
+| Frontend, React, Vue, Angular, Vite, SPA, Node.js hosting | Rosie | Frontend dev server hosting, SPA integration, Node.js in Aspire |
+| HTTP clients, resilience, Polly, retry, circuit breaker, YARP | HK-47 | HttpClientFactory patterns, resilience policies, API gateway config |
+| Cloud storage, Azure Blob, Azure Table, Azure Queue, file systems | Iron Giant | Storage account hosting, blob/table/queue integration patterns |
+| Polyglot, Python, Java, Go, Rust, non-.NET runtimes | Bender | Language runtime hosting, polyglot service integration in Aspire |
+| Dapr, service mesh, sidecar, service invocation, state stores | K-2SO | Dapr sidecar config, pub/sub, state management, service discovery |
+| Search, Elasticsearch, OpenSearch, Meilisearch, Azure AI Search | Robby | Search engine hosting, index configuration, query patterns |
+| NoSQL, MongoDB, Cosmos DB, RavenDB, EventStore, document DBs | Gort | NoSQL hosting, document DB patterns, event store integration |
+| Entity Framework, EF Core, migrations, LINQ, ORM patterns | TARS | EF Core integration, migration strategies, database-first/code-first |
 | Code review | Data | Review PRs, check quality, suggest improvements |
 | Scope & priorities | Data | What to build next, trade-offs, decisions |
 | Async issue work (bugs, tests, small features) | @copilot 🤖 | Well-defined tasks matching capability profile |

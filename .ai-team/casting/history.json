@@ -17,6 +17,37 @@
         { "role": "GitOps", "name": "Bishop", "source": "Aliens" },
         { "role": "DevRel", "name": "Baymax", "source": "Big Hero 6" }
       ]
+    },
+    "wave2-2026-02-16": {
+      "assignment_id": "wave2-2026-02-16",
+      "universe": "Famous Robots of Pop Culture",
+      "timestamp": "2026-02-16T22:50:00Z",
+      "assignments": [
+        { "role": "Infrastructure & Cloud Deploy", "name": "WALL-E", "source": "WALL-E (Pixar)" },
+        { "role": "Testing & QA", "name": "Optimus", "source": "Transformers" },
+        { "role": "Observability & Monitoring", "name": "Vision", "source": "Marvel (Avengers)" },
+        { "role": "Security & Compliance", "name": "T-800", "source": "The Terminator" },
+        { "role": "DX Tooling & Scaffolding", "name": "Marvin", "source": "The Hitchhiker's Guide to the Galaxy" },
+        { "role": "Database Integrations", "name": "C-3PO", "source": "Star Wars" },
+        { "role": "Messaging Integrations", "name": "R2-D2", "source": "Star Wars" },
+        { "role": "Azure & Aspire Specialist", "name": "EVE", "source": "WALL-E (Pixar)" }
+      ]
+    },
+    "wave3-2026-02-16": {
+      "assignment_id": "wave3-2026-02-16",
+      "universe": "Famous Robots of Pop Culture",
+      "timestamp": "2026-02-16T22:55:00Z",
+      "assignments": [
+        { "role": "AI & Machine Learning", "name": "Sonny", "source": "I, Robot" },
+        { "role": "Frontend Hosting", "name": "Rosie", "source": "The Jetsons" },
+        { "role": "HTTP & Resilience", "name": "HK-47", "source": "Star Wars: KOTOR" },
+        { "role": "Cloud Storage", "name": "Iron Giant", "source": "The Iron Giant" },
+        { "role": "Language Runtimes", "name": "Bender", "source": "Futurama" },
+        { "role": "Dapr & Service Mesh", "name": "K-2SO", "source": "Star Wars: Rogue One" },
+        { "role": "Search & Analytics", "name": "Robby", "source": "Forbidden Planet" },
+        { "role": "NoSQL & Event Stores", "name": "Gort", "source": "The Day the Earth Stood Still" },
+        { "role": "Entity Framework & ORMs", "name": "TARS", "source": "Interstellar" }
+      ]
     }
   }
 }
