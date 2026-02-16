@@ -1,0 +1,22 @@
+{
+  "universe_usage_history": [
+    {
+      "universe": "Famous Robots of Pop Culture",
+      "used_at": "2026-02-16T22:42:58Z",
+      "reason": "User requested famous robots from across all pop culture"
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "initial-2026-02-16": {
+      "assignment_id": "initial-2026-02-16",
+      "universe": "Famous Robots of Pop Culture",
+      "timestamp": "2026-02-16T22:42:58Z",
+      "assignments": [
+        { "role": "Aspire Generalist", "name": "Data", "source": "Star Trek: The Next Generation" },
+        { "role": "Blogger", "name": "Johnny Five", "source": "Short Circuit" },
+        { "role": "GitOps", "name": "Bishop", "source": "Aliens" },
+        { "role": "DevRel", "name": "Baymax", "source": "Big Hero 6" }
+      ]
+    }
+  }
+}

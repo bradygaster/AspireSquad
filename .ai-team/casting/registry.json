@@ -1,0 +1,36 @@
+{
+  "agents": {
+    "data": {
+      "persistent_name": "Data",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Star Trek: The Next Generation",
+      "created_at": "2026-02-16T22:42:58Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "johnny-five": {
+      "persistent_name": "Johnny Five",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Short Circuit",
+      "created_at": "2026-02-16T22:42:58Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "bishop": {
+      "persistent_name": "Bishop",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Aliens",
+      "created_at": "2026-02-16T22:42:58Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "baymax": {
+      "persistent_name": "Baymax",
+      "universe": "Famous Robots of Pop Culture",
+      "source": "Big Hero 6",
+      "created_at": "2026-02-16T22:42:58Z",
+      "legacy_named": false,
+      "status": "active"
+    }
+  }
+}
