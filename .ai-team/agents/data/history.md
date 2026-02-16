@@ -36,3 +36,45 @@ The .NET Aspire CLI is a greenfield/brownfield orchestration tool with three pri
 - Bicep customization enables enterprise networking, scaling, policies without touching AppHost
 
 **For blogging:** Aspire CLI reduces friction in polyglot, cloud-native app development by unifying local orchestration with production deployment. The template + add + run pattern is intuitive for new adopters, and azd integration makes Azure deployment near-zero-config.
+
+### README Developer Experience Patterns (2026-02-16)
+
+When reviewing README files for developer-focused projects, prioritize these clarity patterns:
+
+**1. Early Expectation Setting**
+- Surface experimental status within first 3 lines (not buried at bottom)
+- Use visual callouts (⚠️, 🚧) to signal "this is bleeding edge"
+- Distinguish between "framework to adopt" vs "example to learn from"
+
+**2. Prerequisites Before Quick Start**
+- List required tools, subscriptions, SDKs upfront
+- Include verification steps ("how do I know this worked?")
+- Prevents "did I miss something?" confusion after setup
+
+**3. Platform-Appropriate Commands**
+- For .NET projects: Windows PowerShell first, Unix alternatives second
+- For Node.js projects: Unix first (npm ecosystem leans Linux/macOS)
+- Match command syntax to developer's expected environment
+
+**4. Conceptual Over Countable**
+- Avoid leading with implementation details ("21 agents")
+- Lead with roles and capabilities ("specialists for testing, deployment, security")
+- Implementation counts can change; conceptual model should be stable
+
+**5. Bridge the Setup-to-Usage Gap**
+- Add "What Happens Next" section after getting-started
+- Show example output/interaction patterns
+- Explain the mechanics of invocation (e.g., `@squad` in Copilot Chat)
+
+**Key Files:**
+- [README.md](../../../README.md) — Main entry point for AspireSquad framework
+- `.ai-team/agents/{name}/charter.md` — Each agent's role definition
+- `.github/agents/squad.agent.md` — Coordinator prompt for Copilot integration
+
+📌 Team update (2026-02-16): README Structure & Onboarding standards consolidated — prerequisites upfront, status clarity, recommended paths, instant validation, progressive disclosure, visible support — decided by Data, Baymax
+
+📌 Team update (2026-02-16): Git Workflow Documentation Standards established — always include verification commands, checks for destructive operations, cross-platform examples, branch awareness, conflict resolution guidance — decided by Bishop
+
+📌 Team update (2026-02-16): All project documentation goes in docs/ folder, blog posts in docs/blog/ — user directive via Copilot
+
+📌 Team update (2026-02-16): Aspire CLI as core skill — agents should prefer CLI-based workflows for Aspire development — user directive via Copilot
