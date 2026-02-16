@@ -11,7 +11,7 @@
 
 ### Aspire CLI Architecture & Workflows (2026-02-16)
 
-The .NET Aspire CLI is a greenfield/brownfield orchestration tool with three primary workflows:
+The Aspire CLI is a greenfield/brownfield orchestration tool with three primary workflows:
 
 **1. Project Initialization**
 - `aspire new` creates from templates (starter, apphost, servicedefaults, integration-tests)

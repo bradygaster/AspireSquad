@@ -1,6 +1,6 @@
 # Aspire CLI
 
-> The command-line interface for creating, orchestrating, and deploying .NET Aspire distributed applications.
+> The command-line interface for creating, orchestrating, and deploying Aspire distributed applications.
 
 **Confidence:** low
 **Source:** earned
@@ -16,6 +16,8 @@ Use the Aspire CLI when:
 - Generating deployment manifests for cloud environments (`aspire publish`)
 - Deploying Aspire applications to Azure Container Apps (`aspire deploy`)
 - Managing Aspire CLI configuration (`aspire config`)
+- Updating Aspire packages and CLI to latest versions (`aspire update`)
+- Configuring MCP for AI coding agent integration (`aspire mcp init`)
 
 ## Core Commands
 
@@ -29,9 +31,10 @@ Creates a new Aspire project from a template.
   - `--output`, `-o`: Output directory
   - `--source`, `-s`: Custom NuGet source for templates
   - `--version`: Specific template version
-  - `--channel`: Template feed (stable, staging, daily)
+  - `--channel`: Template feed (stable or preview). Choice persists to `~/.aspire/globalsettings.json` for future commands
 - **Key templates:**
   - `aspire-starter` (default): Recommended quickstart with AppHost, ServiceDefaults, API, and frontend
+  - `aspire-ts-cs-starter`: TypeScript/React frontend + ASP.NET Core backend starter
   - `aspire`: Empty AppHost project
   - `aspire-apphost`: Just the orchestrator
   - `aspire-servicedefaults`: Just the shared configuration library
@@ -48,7 +51,7 @@ Adds Aspire orchestration to an existing .NET solution (brownfield approach).
 - **Options:**
   - `--source`: Custom NuGet source
   - `--version`: Template version
-  - `--channel`: Template feed
+  - `--channel`: Template feed (stable or preview). Choice persists to `~/.aspire/globalsettings.json` for future commands
 
 ### Component & Integration Management
 
@@ -97,6 +100,48 @@ Manages Aspire CLI configuration.
   - `aspire config set <key> <value>` — Set a configuration value
   - `aspire config delete <key>` — Delete a configuration value
 - **Example:** `aspire config set dashboard.otlp-endpoint http://custom:18889`
+
+### Updates & Maintenance
+
+#### `aspire update`
+Updates Aspire packages and the Aspire CLI to the latest versions.
+- **Usage:**
+  - `aspire update` — Update Aspire packages in current AppHost project
+  - `aspire update --self` — Update the Aspire CLI tool itself
+  - `aspire update --check` — Check for available updates without applying them
+- **Behavior:**
+  - Updates all `Aspire.*` package references to latest versions
+  - Respects channel selection (stable vs preview) from global settings
+  - Shows version changes and requires confirmation before applying
+- **Example workflow:**
+```bash
+# Check if updates are available
+aspire update --check
+
+# Update packages in current project
+aspire update
+
+# Update the CLI tool itself
+aspire update --self
+```
+
+### AI Integration & Tooling
+
+#### `aspire mcp init`
+Configures Model Context Protocol (MCP) for AI coding agents to work with Aspire applications.
+- **Usage:** `aspire mcp init` (run in AppHost directory)
+- **Behavior:**
+  - Initializes MCP configuration for the current Aspire app
+  - Exposes integration documentation to AI agents
+  - Exposes AppHost state and resource definitions to AI agents
+  - Creates `.mcp/` configuration in project root
+- **Use case:** Enables AI coding assistants (like GitHub Copilot, Cursor, etc.) to understand your Aspire app structure, available integrations, and deployment state
+- **Example:**
+```bash
+cd ./MyAspireApp.AppHost
+aspire mcp init
+# AI agents can now query Aspire app structure and docs
+```
 
 ### Deployment & Publishing
 
@@ -216,6 +261,20 @@ aspire add azure-container-apps
 # In AppHost/Program.cs:
 builder.AddAzureContainerAppEnvironment("aca");
 ```
+
+**Azure Managed Redis (Cloud Cache):**
+```bash
+aspire add azure-redis
+
+# In AppHost/Program.cs:
+var redis = builder.AddAzureManagedRedis("cache");
+var api = builder.AddProject<Projects.Api>("api")
+  .WithReference(redis);
+```
+
+**Note:** As of Aspire 13.1, Azure Redis Enterprise APIs have been renamed:
+- `AddAzureRedisEnterprise` → `AddAzureManagedRedis` (new name)
+- `AddAzureRedis` is now obsolete — use `AddAzureManagedRedis` instead
 
 ## Run and Debug Workflows
 

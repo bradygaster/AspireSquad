@@ -30,7 +30,7 @@
 ### 2026-02-16: README Structure & Onboarding (consolidated)
 **By:** Data, Baymax
 **What:** README files should follow this structure priority:
-1. **Prerequisites upfront** (before Quick Start): List required tools with install links (VS Code with Copilot, .NET 9 SDK, .NET Aspire workload, Git). For .NET projects, show Windows commands first.
+1. **Prerequisites upfront** (before Quick Start): List required tools with install links (VS Code with Copilot, .NET 9 SDK, Aspire workload, Git). For .NET projects, show Windows commands first.
 2. **Status clarity early**: Surface experimental status and disclaimers at the top, not buried at bottom.
 3. **Recommended path**: Badge the default Quick Start option to reduce decision paralysis (e.g., "⭐ Recommended for most users" on Fork option).
 4. **Instant validation**: Add 30-second "Verify It Works" step at end of Quick Start.
@@ -47,3 +47,14 @@
 **By:** Johnny Five
 **What:** External-facing documentation (README.md, landing pages, guides) should match the energy and authenticity of blog voice. Guidelines: (1) Lead with story not definition, (2) Inject personality, (3) Commit to values upfront, (4) Be specific and concrete, (5) Close with clear calls-to-action.
 **Why:** Voice consistency between blog posts and documentation builds trust and makes the project memorable. Disconnect between vibrant blog and dry README creates confusion about project identity.
+
+### 2026-02-16: AspireSquad focuses on Aspire 13+ 
+**By:** EVE
+**What:** AspireSquad explicitly targets Aspire 13.1 and beyond, not legacy versions
+**Why:** 
+- Aspire 13.1 introduces major features (MCP support, update command, channel selection)
+- The platform has rebranded from ".NET Aspire" to "Aspire" (polyglot, extensible)
+- Breaking changes exist (Azure Redis API renamed to Azure Managed Redis)
+- We want developers starting with current best practices, not outdated patterns
+- Documentation should guide to aspire.dev as canonical source
+- Our prerequisites now specify "Aspire 13.1+" to set clear expectations

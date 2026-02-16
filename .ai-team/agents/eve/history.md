@@ -12,3 +12,5 @@
 📌 Team update (2026-02-16): Aspire CLI as core skill — agents should prefer CLI-based workflows for Aspire development — user directive via Copilot
 
 📌 Team update (2026-02-16): Aspire integration agents split by category — databases, messaging, etc. instead of single integration generalist. Dedicated Azure & Aspire specialist agent added — user directive via Copilot
+
+📌 Team update (2026-02-16): AspireSquad targets Aspire 13.1+ — decided by team consensus
