@@ -336,11 +336,11 @@ This is an active experiment and learning journey. We're figuring out licensing 
 
 ## 🙏 About This Project
 
-Created by [Brady Gaster](https://github.com/bradygaster) as an exploration of multi-agent AI collaboration for building .NET Aspire applications.
+Created by [Brady Gaster](https://github.com/bradygaster) as an exploration of multi-agent AI collaboration for building Aspire applications.
 
 This is an **active experiment**. We're learning as we go, documenting the journey, and figuring out what works (and what doesn't) when AI agents collaborate on real software projects.
 
-Built with ❤️ for the .NET Aspire community.
+Built with ❤️ for the Aspire community.
 
 ---
 
