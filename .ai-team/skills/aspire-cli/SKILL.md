@@ -325,8 +325,8 @@ var api = builder.AddProject<Projects.Api>("api")
 winget install azure-cli
 # or brew install azure-cli (macOS)
 
-# Install Aspire workload
-dotnet workload install aspire
+# Install Aspire CLI
+dotnet tool install -g aspire
 ```
 
 **Deployment Steps:**
@@ -425,7 +425,7 @@ AZURE_RESOURCE_GROUP=myapp-rg
 - **CLI Overview:** https://aspire.dev/reference/cli/overview/
 - **Templates:** https://aspire.dev/get-started/aspire-sdk-templates/
 - **Component Integrations:** https://aspire.dev/integrations/overview/
-- **Deployment to Azure:** https://learn.microsoft.com/en-us/dotnet/aspire/deployment/azd/aca-deployment
+- **Deployment to Azure:** https://aspire.dev/deployment/azure/aca/
 - **Dashboard Configuration:** https://aspire.dev/dashboard/configuration/
 - **Custom Integrations:** https://aspire.dev/integrations/custom-integrations/hosting-integrations/
 - **GitHub: dotnet/aspire:** https://github.com/dotnet/aspire

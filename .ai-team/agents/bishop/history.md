@@ -45,7 +45,7 @@
 **GitHub CLI workflow:**
 - Single command `gh repo create` with `--source=.`, `--remote=origin`, `--push` flags handles repository creation, remote setup, and initial push atomically
 - Automatically configures upstream tracking for main branch
-- Publishes repository with description: "AI agent team framework for building .NET Aspire applications"
+- Publishes repository with description: "AI agent team framework for building Aspire applications"
 
 **Pre-push requirements verified:**
 - Working directory must be clean (all changes committed)

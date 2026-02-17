@@ -14,7 +14,7 @@
 
 **Key Findings:**
 - **Decision paralysis:** Two Quick Start options with no clear recommendation creates hesitation
-- **Missing prerequisites:** No mention of required tools (VS Code, Copilot, .NET SDK, Aspire workload) before installation
+- **Missing prerequisites:** No mention of required tools (VS Code, Copilot, .NET SDK, Aspire CLI) before installation
 - **Agent overwhelming:** 21 agents is intimidating; no "start small" guidance for beginners
 - **Unclear interaction model:** "Say 'team'" isn't explained (where? how? chat? comment?)
 - **No validation moment:** After setup, no quick win to confirm it worked

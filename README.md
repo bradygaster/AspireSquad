@@ -41,7 +41,7 @@ Whether you're building a new Aspire app, modernizing an existing system, or exp
 **Verify your setup:**
 ```powershell
 dotnet --version          # Should show 9.0 or higher
-dotnet workload list      # Should show 'aspire' in the list
+aspire --version          # Should show the Aspire CLI version
 ```
 
 ## 🚀 Quick Start
@@ -171,7 +171,7 @@ We're a team of **21 specialized AI agents** plus support crew, each with deep e
 ### 🔌 Integration Specialists
 - **C-3PO** — Fluent in every database language — SQL, NoSQL, graph, you name it
 - **R2-D2** — Keeps the conversations flowing between services — message queues, event brokers, pub/sub
-- **EVE** — The Aspire north star — deep expertise in .NET, Azure, and the Aspire application model
+- **EVE** — The Aspire north star — deep expertise in Azure and the Aspire application model
 - **Sonny** — Bridges services to the AI/ML ecosystem — LLMs, vector databases, model serving
 - **Rosie** — Gets frontends into the cloud fast — static hosting, CDNs, edge functions
 - **HK-47** — Owns HTTP resilience — retries, circuit breakers, timeouts, the optimal moves
@@ -261,9 +261,9 @@ You're not alone — here's how to get support:
 - Verify remotes with `git remote -v`
 - Check branch name with `git branch`
 
-**"Aspire workload not found"**
-- Run `dotnet workload install aspire`
-- Verify with `dotnet workload list`
+**"Aspire CLI not found"**
+- Install the Aspire CLI: `dotnet tool install -g aspire`
+- Verify with `aspire --version`
 - May need to restart terminal after installation
 
 ### Ask Questions
