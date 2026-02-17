@@ -36,7 +36,7 @@ Whether you're building a new Aspire app, modernizing an existing system, or exp
 
 - **[Visual Studio Code](https://code.visualstudio.com/)** with **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)** extension enabled
 - **[.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)** or later
-- **[Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling)** — Install with:
+- **[Aspire 13.1+ workload](https://aspire.dev)** — Install with:
   ```powershell
   dotnet workload install aspire
   ```
